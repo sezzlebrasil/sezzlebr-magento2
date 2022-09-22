@@ -1,0 +1,11 @@
+version: "3.6"
+services:
+  web:
+      build: .
+      container_name: sezzle_magento2
+      ports:
+      - "8085:80"
+      volumes:
+      - .:/var/www/html/app/code/Sezzle/Sezzlepay
+      env_file:
+        - docker.env
