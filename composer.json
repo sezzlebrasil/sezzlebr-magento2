@@ -1,8 +1,8 @@
 {
-    "name": "sezzle/sezzlepay",
+    "name": "sezzlebrasil/sezzlepay",
     "description": "Sezzle extension for Magento 2",
     "type": "magento2-module",
-    "homepage": "https://github.com/sezzle/sezzle-magento-2/",
+    "homepage": "https://github.com/sezzlebrasil/sezzlebr-magento2",
     "keywords": [
         "sezzle",
         "magento",
@@ -12,7 +12,7 @@
         "payment",
         "gateway"
     ],
-    "version": "6.0.5",
+    "version": "1.0.0",
     "license": "Apache-2.0",
     "autoload": {
         "files": [

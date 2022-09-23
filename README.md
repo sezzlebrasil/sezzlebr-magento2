@@ -19,7 +19,7 @@ There are two ways of installing and upgrading the extension.
 
 ### Composer
 * Open terminal and navigate to `Magento` root path.
-* `composer require sezzle/sezzlepay`
+* `composer require sezzlebrasil/sezzlepay`
 * `php bin/magento setup:upgrade`
 * `php bin/magento setup:di:compile`
 * `php bin/magento setup:static-content:deploy`
@@ -48,7 +48,7 @@ You can now directly navigate from the Configuration Page to get signed up for `
 
 ### Composer
 * Open terminal and navigate to `Magento` root path.
-* `composer update sezzle/sezzlepay`
+* `composer update sezzlebrasil/sezzlepay`
 * `php bin/magento setup:upgrade`
 * `php bin/magento setup:di:compile`
 * `php bin/magento setup:static-content:deploy`
