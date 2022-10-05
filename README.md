@@ -7,7 +7,7 @@
 ## Sezzle Extension for Magento 2
 
 ## Introduction
-This document will help you in installing `Sezzle's Magento 2` extension. This extension is a certified one and listed [here](https://marketplace.magento.com/sezzle-sezzlepay.html) in the marketplace. The plugin can also be downloaded from [github](https://github.com/sezzle/sezzle-magento2).
+This document will help you in installing `Sezzle's Magento 2` extension. The plugin can also be downloaded from [github](https://github.com/sezzlebrasil/sezzlebr-magento2).
 
 ## How to install the extension?
 
@@ -76,14 +76,13 @@ You can now directly navigate from the Configuration Page to get signed up for `
 ### Payment Configuration
 
 * Set `Enabled` as `Yes` to activate Sezzle as a payment option.
-* Make sure you have the `Merchant UUID` and the `API Keys` from the [`Sezzle Merchant Dashboard`](https://merchants.sezzle.com.br). Sign Up if you have not signed up to get the necessities.
+* Make sure you have the `Merchant UUID` and the `API Keys` from the [`Sezzle Merchant Dashboard`](https://lojista.sezzle.com.br). Sign Up if you have not signed up to get the necessities.
 * Navigate to `Stores > Configuration > Sales > Payment Methods > Sezzle > Payment Settings` in your `Magento` admin.
 * Set the Payment Mode to `Live` for LIVE and set it as `Sandbox` for SANDBOX.
 * Set the `Merchant UUID`, `Public Key` and `Private Key`.
 * Set `Payment Action` as `Authorize only` for doing payment authorization only and `Authorize and Capture` for doing instant capture.
 * Set `Min Checkout Amount` to restrict Sezzle payment method below that amount.
 * Set `Payment from Applicable Countries` to `Specific Countries`.
-* Set `Payment from Specific Countries` to `United States` or `Canada` as Sezzle is currently available for US and Canada only.
 * Set `Enable Customer Tokenization` to `Yes` for allowing Sezzle to tokenize the customer account if they approve it. If customer wish to tokenize their account, next time, they don't have to redirect to Sezzle Checkout for completing the purchase, rather it will happen in your website.
 * Set `Sort Order` to manage the position of Sezzle in the checkout payment options list.
 * Save the configuration and clear the cache.
@@ -193,7 +192,7 @@ _**Note** : Automatic Syncing requires cron to be enabled._
 
 ## How Sandbox works?
 
-* In the `Sezzle` configuration page of your `Magento` admin, enter the `Sandbox` `API Keys` from your [`Sezzle Merchant Sandbox Dashboard`](https://sandbox.dashboard.sezzle.com/merchant/) and set the `Payment Mode` to `Sandbox`, then save the configuration. Make sure you are doing this on your `dev/staging` website.
+* In the `Sezzle` configuration page of your `Magento` admin, enter the `Sandbox` `API Keys` from your [`Sezzle Merchant Sandbox Dashboard`](https://merchants.sandbox.sezzle.com.br/merchant/login?redirect=/) and set the `Payment Mode` to `Sandbox`, then save the configuration. Make sure you are doing this on your `dev/staging` website.
 * On your website, add an item to the cart, then proceed to `Checkout` and select `Sezzle` as the payment method.
 * To pay with Sezzle:
     * If customer is not tokenized, click `Continue to Sezzle`.

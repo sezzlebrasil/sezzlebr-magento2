@@ -52,7 +52,7 @@ class Config
     /**
      * @var string
      */
-    private $registerUrl = "https://merchants.sezzle.com.br";
+    private $registerUrl = "https://lojista.sezzle.com.br";
 
     /**
      * Config constructor.
